@@ -1,42 +1,50 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.cabecalho{
+.cabecalho {
+    background-color: teal; 
     color: white;
-    background-color: black;
+    padding: 20px 0;
     text-align: center;
-    padding: 30px;
 }
 
-.cabecalho h3{
-    color: rgb(206, 206, 8);
+.navbar-custom {
+    background-color: #2a9d8f; /* azul-petróleo suave */
 }
 
-p .alinha{
-    text-align: right;
-}
-.img-agro{
-    width: 300px;
-}
-
-.br-3{
-    border-radius: 15px;
-}
-
-.img-card{
-    max-height: 250px;
-}
-
-.img-slide{
-    max-height: 400px;
-}
-
-.footer{
-    background-color: black;
+.navbar-custom .nav-link {
     color: white;
-    text-align: center;
-    padding: 5px;
+    font-weight: bold;
 }
+
+.navbar-custom .nav-link:hover {
+    color: #ffd700; /* dourado para destaque no hover */
+}
+
+footer {
+    background-color: teal; 
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+            max-width: 900px;
+            margin: 0 auto; /* centraliza horizontalmente */
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            color: #333;
+        }
+
+        /* Título com cor teal */
+        .container h2 {
+            color: teal;
+            margin-bottom: 15px;
+        }
+
+        /* Parágrafos com espaçamento */
+        .container p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        
